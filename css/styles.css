@@ -5,10 +5,13 @@ ol {
   list-style-type: none;
 }
 
+.container-gallery {
+  max-width: 1128px;
+  margin: 0 auto;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 24px;
 }
 
